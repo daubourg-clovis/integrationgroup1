@@ -20,28 +20,52 @@
 body{
 	--green-color: #1ABC9C;
 	--black-footer: #222533;
+	margin: 0;
 }
 
 .lato16black{
 	font-family: "Lato";
 	font-weight: 900;
 	color: white;
+	font-size: 1rem;
 }
 
 .lato16bold{
 	font-family: "Lato";
 	font-weight: 700;
 	color: #ECF0F1;
+	font-size: 1rem;
 }
 
 .lato14reg{
 	font-family: "Lato";
 	font-weight: 400;
 	color: #A1B1BC;
+	font-size: 0.875rem;
 }
 
 .lato14black{
 	font-family: "Lato";
 	font-weight: 900;
 	color:var(--green-color);
+	font-size: 0.875rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+#first-footer{
+	margin: 0;
+	padding-left: 23.438rem;
+	padding-right: 23.438rem;
+	height: 29.188rem;
+	background-color: var(--black-footer);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sfooter4{
+	width: 25%;
 }
