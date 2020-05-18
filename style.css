@@ -21,3 +21,27 @@ body{
 	--green-color: #1ABC9C;
 	--black-footer: #222533;
 }
+
+.lato16black{
+	font-family: "Lato";
+	font-weight: 900;
+	color: white;
+}
+
+.lato16bold{
+	font-family: "Lato";
+	font-weight: 700;
+	color: #ECF0F1;
+}
+
+.lato14reg{
+	font-family: "Lato";
+	font-weight: 400;
+	color: #A1B1BC;
+}
+
+.lato14black{
+	font-family: "Lato";
+	font-weight: 900;
+	color:var(--green-color);
+}
