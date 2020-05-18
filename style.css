@@ -23,9 +23,11 @@ body{
     --green-color: #1ABC9C;
 	--black-footer: #222533;
 	--maintext-color: #A1B1BC;
+	--title-color: #2C3E50;
 	margin: 0;
-	font-style: 'Lato' , sans-serif;
+	font-family: 'Lato' , sans-serif;
 	font-weight: 500;
+	font-size: 1rem;
 	}
 	
 
@@ -46,6 +48,7 @@ body{
 	height: 30px;
 	text-transform: uppercase;
 	font-size: 13px;
+	font-weight: 900;
 	color: var(--maintext-color);
 	border: 1px solid #ECF0F1;
 	border-radius: 3px;
@@ -68,3 +71,31 @@ body{
 	font-size: 18px;
 }
 
+#header2{
+	display: flex;
+	box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.75);
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.menu li a{
+	color: var(--maintext-color);
+	text-decoration: none;
+}
+
+#header3{
+	display: flex;
+}
+
+#titleheader h1{
+	font-size: 1.875rem;
+	font-weight: 400;
+	color: var(--title-color);
+}
+
+#path nav{
+	display: flex;
+}
