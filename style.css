@@ -21,6 +21,50 @@
 
 body{
     --green-color: #1ABC9C;
-    --black-footer: #222533;
-    margin: 0;
-    }
+	--black-footer: #222533;
+	--maintext-color: #A1B1BC;
+	margin: 0;
+	font-style: 'Lato' , sans-serif;
+	font-weight: 500;
+	}
+	
+
+/* Header  */
+
+#header1{
+	display: flex;
+}
+
+.lang p{
+	font-weight: 700;
+	color: var(--maintext-color);
+}
+
+.cart{
+	display: flex;
+	width: 96px;
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: var(--maintext-color);
+	border: 1px solid #ECF0F1;
+	border-radius: 3px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.socials ul{
+	list-style: none;
+	display: flex;
+}
+
+.elegant{
+	font-family: 'ElegantIcons';
+}
+
+.icon-facebook::before{
+	content: "&#xe093";
+	font-size: 18px;
+}
+
