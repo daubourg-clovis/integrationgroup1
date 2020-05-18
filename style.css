@@ -20,6 +20,7 @@
 body{
 	--green-color: #1ABC9C;
 	--black-footer: #222533;
+	--grey-p :#A1B1BC;
 	margin: 0;
 }
 
@@ -52,7 +53,7 @@ body{
 .lato14reg{
 	font-family: "Lato";
 	font-weight: 400;
-	color: #A1B1BC;
+	color: var(--grey-p);
 	font-size: 0.875rem;
 }
 
@@ -93,3 +94,14 @@ hr{
 }
 
 
+#second-footer{
+	background-color: #171D22;
+}
+
+
+.lato15reg{
+	font-family: "Lato";
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.9375rem;
+}
