@@ -29,6 +29,7 @@ body{
 	color: white;
 	font-size: 1rem;
 	letter-spacing: 5px; 
+	line-height: 5.625rem;
 }
 
 .underline-green{
@@ -41,6 +42,11 @@ body{
 	font-weight: 700;
 	color: #ECF0F1;
 	font-size: 1rem;
+	line-height: 0.25rem;
+}
+
+.lato16bold:hover{
+	color: var(--green-color)
 }
 
 .lato14reg{
@@ -55,6 +61,10 @@ body{
 	font-weight: 900;
 	color:var(--green-color);
 	font-size: 0.875rem;
+}
+
+.lato14black:hover{
+	color: white;
 }
 
 a{
@@ -78,7 +88,9 @@ footer section{
 
 hr{
 	color: #46515C;
-	width: 85%;
-	margin-left: 0;;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	WIDTH : 100%
 }
+
 
