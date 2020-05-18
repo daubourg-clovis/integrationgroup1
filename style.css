@@ -26,11 +26,12 @@ body{
 	--title-color: #2C3E50;
 	margin: 0;
 	font-family: 'Lato' , sans-serif;
-	font-weight: 500;
-	font-size: 1rem;
 	}
 	
 
+a{
+	text-decoration: none;
+}
 /* Header  */
 
 #header1{
@@ -62,14 +63,49 @@ body{
 	display: flex;
 }
 
-.elegant{
-	font-family: 'ElegantIcons';
+.socials li a{
+	color: var(--maintext-color);
+	font-size: 18px;
+	margin: 0 4px;
 }
 
-.icon-facebook::before{
-	content: "&#xe093";
-	font-size: 18px;
+.elegant{
+	font-family: 'ElegantIcons';
+	
 }
+
+
+.icon-facebook::before{
+	content: "";
+
+}
+
+.icon-twitter::before{
+	content: '';
+}
+
+.icon-tumblr::before{
+	content: '';
+}
+
+.icon-vimeo::before{
+	content: '';
+}
+
+.icon-linkedin::before{
+	content: ' ';
+}
+
+.icon-dribble::before{
+	content: '';
+}
+.icon-instagram::before{
+	content: '';
+}
+.icon-rss::before{
+	content: '';
+}
+
 
 #header2{
 	display: flex;
@@ -83,7 +119,13 @@ body{
 
 .menu li a{
 	color: var(--maintext-color);
-	text-decoration: none;
+	margin: 0 23.5px;
+}
+
+.icon-search::before{
+	content: 'U';
+	font-size: 20px;
+	color: black;
 }
 
 #header3{
