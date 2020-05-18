@@ -16,3 +16,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+
+body{
+    --green-color: #1ABC9C;
+    --black-footer: #222533;
+    margin: 0;
+    }
