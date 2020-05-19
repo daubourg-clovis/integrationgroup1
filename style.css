@@ -18,22 +18,73 @@
 }
 
 
+/* General Use -------- */
+
 
 body{
     --green-color: #1ABC9C;
 	--black-footer: #222533;
-	--maintext-color: #A1B1BC;
+	--grey-p :#A1B1BC;
 	--title-color: #2C3E50;
 	margin: 0;
-	font-family: 'Lato' , sans-serif;
 }
-	
+
+.lato16black{
+	font-family: "Lato";
+	font-weight: 900;
+	color: white;
+	font-size: 1rem;
+	letter-spacing: 5px; 
+	line-height: 5.625rem;
+}
+
+.underline-green{
+	text-decoration: underline var(--green-color) 3px;
+	text-underline-offset : 0.6rem;
+}
+
+.lato16bold{
+	font-family: "Lato";
+	font-weight: 700;
+	color: #ECF0F1;
+	font-size: 1rem;
+	line-height: 0.25rem;
+}
+
+.lato16bold:hover{
+	color: var(--green-color)
+}
+
+.lato14reg{
+	font-family: "Lato";
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.875rem;
+}
+
+.lato14black{
+	font-family: "Lato";
+	font-weight: 900;
+	color:var(--green-color);
+	font-size: 0.875rem;
+}
+
+.lato14black:hover{
+	color: white;
+}
+
+.lato15reg{
+	font-family: "Lato";
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.9375rem;
+}
 
 a{
 	text-decoration: none;
 }
 
-/* Header  */
+/* Header ------ */
 
 #header1{
 	display: flex;
@@ -143,3 +194,36 @@ a{
 #path nav{
 	display: flex;
 }
+
+
+
+/* Footer -----  */
+
+
+#first-footer{
+	margin: 0;
+	padding-left: 23.438rem;
+	padding-right: 23.438rem;
+	height: 29.188rem;
+	background-color: var(--black-footer);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer section{
+	width: 20%;
+}
+
+hr{
+	color: #46515C;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+#second-footer{
+	background-color: #171D22;
+}
+
+
