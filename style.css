@@ -126,14 +126,12 @@ a{
 }
 
 .elegant{
-	font-family: 'ElegantIcons';
-	
+	font-family: 'ElegantIcons';	
 }
 
 
 .icon-facebook::before{
 	content: "";
-
 }
 
 .icon-twitter::before{
