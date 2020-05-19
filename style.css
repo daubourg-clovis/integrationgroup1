@@ -26,12 +26,13 @@ body{
 	--title-color: #2C3E50;
 	margin: 0;
 	font-family: 'Lato' , sans-serif;
-	}
+}
 	
 
 a{
 	text-decoration: none;
 }
+
 /* Header  */
 
 #header1{
@@ -45,14 +46,14 @@ a{
 
 .cart{
 	display: flex;
-	width: 96px;
-	height: 30px;
+	width: 6rem;
+	height: 1.875rem;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 0.813rem;
 	font-weight: 900;
 	color: var(--maintext-color);
 	border: 1px solid #ECF0F1;
-	border-radius: 3px;
+	border-radius: 0.188;
 	justify-content: center;
 	align-items: center;
 
@@ -65,8 +66,8 @@ a{
 
 .socials li a{
 	color: var(--maintext-color);
-	font-size: 18px;
-	margin: 0 4px;
+	font-size: 1.125rem;
+	margin: 0 0.25rem;
 }
 
 .elegant{
@@ -119,12 +120,12 @@ a{
 
 .menu li a{
 	color: var(--maintext-color);
-	margin: 0 23.5px;
+	margin: 0 1.469rem;
 }
 
 .icon-search::before{
 	content: 'U';
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: black;
 }
 
@@ -136,6 +137,7 @@ a{
 	font-size: 1.875rem;
 	font-weight: 400;
 	color: var(--title-color);
+	text-transform: capitalize;
 }
 
 #path nav{
