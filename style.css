@@ -151,3 +151,18 @@ footer section{
 .icon-rss::before{
 	content: '';
 }
+
+.socials ul{
+	list-style: none;
+	display: flex;
+}
+
+.socials li a{
+	color: var(--grey-p);
+	font-size: 1.125rem;
+	margin: 0 0.25rem;
+}
+
+footer .socials li a:hover{
+	color: white;
+}
