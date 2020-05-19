@@ -42,15 +42,16 @@ body{
 	margin-bottom: 2.625rem;
 }
 
+.lato16bold{
+	margin-bottom: 0;
+}
 
 .lato16bold a{
 	font-family: "Lato";
 	font-weight: 700;
 	color: #ECF0F1;
 	font-size: 1rem;
-	line-height: 0.25rem;
 }
-
 
 
 #first-footer p a:hover{
