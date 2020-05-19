@@ -93,10 +93,11 @@ a{
 
 /* Header ------ */
 
-
+	
 
 #header1 .container{
 	display: flex;
+	align-items: center;
 }
 
 #header1::after{
@@ -106,10 +107,17 @@ a{
 	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
 }
 
+.lang{
+	margin-right: 36.75rem;
+}
 
 .lang p{
 	font-weight: 700;
 	color: var(--grey-p);
+}
+
+.lang span{
+	margin-right: 8px;
 }
 
 .cart{
@@ -124,7 +132,10 @@ a{
 	border-radius: 0.188;
 	justify-content: center;
 	align-items: center;
+}
 
+.socials{
+	margin-left: 1.563rem;
 }
 
 .socials ul{
@@ -142,7 +153,6 @@ a{
 	font-family: 'ElegantIcons';
 	
 }
-
 
 .icon-facebook::before{
 	content: "";
@@ -176,6 +186,7 @@ a{
 }
 
 #header2{
+	margin-top: 0.5rem;
 	box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.75);
 }
 
@@ -183,9 +194,15 @@ a{
 	display: flex;
 }
 
+.menu {
+	margin-left: 5.938rem;
+}
+
 .menu ul{
 	display: flex;
 	list-style: none;
+	position: relative;	
+	top: 0.938rem;
 }
 
 .menu li a{
