@@ -74,7 +74,7 @@ body{
 }
 
 .lato14black:hover{
-	color: white;
+	border-bottom: 3px solid var(--green-color)
 }
 
 a{
@@ -186,6 +186,7 @@ footer #second-footer .socials li a:hover{
 	margin-bottom: 1rem;
 	margin-top:1rem;
 }
+
 
 #second-footer p span{
 	color: var(--green-color);
