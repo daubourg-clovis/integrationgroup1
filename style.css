@@ -179,10 +179,14 @@ footer #second-footer .socials li a:hover{
 }
 
 .sfooter4{
-	height: 80%;
+	height: 81%;
 }
 
 .sfooter4 .grey-line {
 	margin-bottom: 1rem;
 	margin-top:1rem;
+}
+
+#second-footer p span{
+	color: var(--green-color);
 }
