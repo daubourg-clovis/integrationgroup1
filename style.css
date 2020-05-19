@@ -84,11 +84,28 @@ a{
 	text-decoration: none;
 }
 
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 /* Header ------ */
 
-#header1{
+
+
+#header1 .container{
 	display: flex;
 }
+
+#header1::after{
+	content: '';
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
+}
+
 
 .lang p{
 	font-weight: 700;
@@ -158,10 +175,12 @@ a{
 	content: '';
 }
 
-
 #header2{
-	display: flex;
 	box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.75);
+}
+
+#header2 .container{
+	display: flex;
 }
 
 .menu ul{
