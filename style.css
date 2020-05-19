@@ -93,10 +93,11 @@ footer section{
 	width: 20%;
 }
 
-hr{
-	color: #46515C;
+.grey-line{
+	border: 1px #46515C solid;
 	margin-top: 1.5625rem;
 	margin-bottom: 1.5625rem;
+	width: 16.875rem;
 }
 
 
