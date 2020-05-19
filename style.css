@@ -216,7 +216,7 @@ a{
 .menu li a:hover{
 	color: var(--green-color);
 	border-top: 2px solid var(--green-color);
-	padding-top: 2.5rem;
+	padding-top: 2.375rem;
 }
 
 .icon-search::before{
@@ -243,13 +243,11 @@ a{
 	display: flex;	
 }
 
-#path nav p,a{
+
+.path {
+	margin: 0 0.5rem;
 	color: var(--grey-p);
 	font-size: 0.875rem;
-}
-
-#path nav p{
-	margin: 0 0.5rem;
 }
 
 .selectedpage{
