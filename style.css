@@ -38,6 +38,8 @@ body{
 .underline-green{
 	border-bottom: 0.1875rem var(--green-color) solid;
 	width: 4.375rem;
+	margin-top: -2.6875rem;
+	margin-bottom: 2.625rem;
 }
 
 
