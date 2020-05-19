@@ -43,8 +43,7 @@ body{
 }
 
 
-
-.lato16bold{
+.lato16bold a{
 	font-family: "Lato";
 	font-weight: 700;
 	color: #ECF0F1;
@@ -52,9 +51,12 @@ body{
 	line-height: 0.25rem;
 }
 
-.lato16bold:hover{
-	color: var(--green-color)
+
+
+#first-footer p a:hover{
+	color: var(--green-color);
 }
+
 
 .lato14reg{
 	font-family: "Lato";
@@ -163,6 +165,6 @@ footer section{
 	margin: 0 0.25rem;
 }
 
-footer .socials li a:hover{
+footer #second-footer .socials li a:hover{
 	color: white;
 }
