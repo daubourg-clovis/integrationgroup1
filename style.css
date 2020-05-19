@@ -123,8 +123,8 @@ a{
 	color: var(--grey-p);
 }
 
-.lang span{
-	margin-right: 8px;
+.marginspan{
+	margin-left: 0.5rem;
 }
 
 .cart{
