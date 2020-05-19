@@ -17,10 +17,15 @@
 	font-style: normal;
 }
 
+
+/* General Use -------- */
+
+
 body{
-	--green-color: #1ABC9C;
+    --green-color: #1ABC9C;
 	--black-footer: #222533;
 	--grey-p :#A1B1BC;
+	--title-color: #2C3E50;
 	margin: 0;
 }
 
@@ -72,9 +77,132 @@ body{
 	color: white;
 }
 
+.lato15reg{
+	font-family: "Lato";
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.9375rem;
+}
+
 a{
 	text-decoration: none;
 }
+
+/* Header ------ */
+
+#header1{
+	display: flex;
+}
+
+.lang p{
+	font-weight: 700;
+	color: var(--maintext-color);
+}
+
+.cart{
+	display: flex;
+	width: 6rem;
+	height: 1.875rem;
+	text-transform: uppercase;
+	font-size: 0.813rem;
+	font-weight: 900;
+	color: var(--maintext-color);
+	border: 1px solid #ECF0F1;
+	border-radius: 0.188;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.socials ul{
+	list-style: none;
+	display: flex;
+}
+
+.socials li a{
+	color: var(--maintext-color);
+	font-size: 1.125rem;
+	margin: 0 0.25rem;
+}
+
+.elegant{
+	font-family: 'ElegantIcons';
+	
+}
+
+
+.icon-facebook::before{
+	content: "";
+
+}
+
+.icon-twitter::before{
+	content: '';
+}
+
+.icon-tumblr::before{
+	content: '';
+}
+
+.icon-vimeo::before{
+	content: '';
+}
+
+.icon-linkedin::before{
+	content: ' ';
+}
+
+.icon-dribble::before{
+	content: '';
+}
+.icon-instagram::before{
+	content: '';
+}
+.icon-rss::before{
+	content: '';
+}
+
+
+#header2{
+	display: flex;
+	box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.75);
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.menu li a{
+	color: var(--maintext-color);
+	margin: 0 1.469rem;
+}
+
+.icon-search::before{
+	content: 'U';
+	font-size: 1.25rem;
+	color: black;
+}
+
+#header3{
+	display: flex;
+}
+
+#titleheader h1{
+	font-size: 1.875rem;
+	font-weight: 400;
+	color: var(--title-color);
+	text-transform: capitalize;
+}
+
+#path nav{
+	display: flex;
+}
+
+
+
+/* Footer -----  */
+
 
 #first-footer{
 	padding-left: 23.438rem;
@@ -107,9 +235,3 @@ hr{
 }
 
 
-.lato15reg{
-	font-family: "Lato";
-	font-weight: 400;
-	color: var(--grey-p);
-	font-size: 0.9375rem;
-}
