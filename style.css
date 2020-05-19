@@ -192,11 +192,9 @@ a{
 
 #header2 .container{
 	display: flex;
+	justify-content: space-between;
 }
 
-.menu {
-	margin-left: 5.938rem;
-}
 
 .menu ul{
 	display: flex;
@@ -210,6 +208,12 @@ a{
 	margin: 0 1.469rem;
 }
 
+.menu li a:hover{
+	color: var(--green-color);
+	border-top: 2px solid var(--green-color);
+	padding-top: 2.375rem;
+}
+
 .icon-search::before{
 	content: 'U';
 	font-size: 1.25rem;
@@ -217,7 +221,10 @@ a{
 }
 
 #header3{
+	height: 121px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #titleheader h1{
@@ -228,9 +235,21 @@ a{
 }
 
 #path nav{
-	display: flex;
+	display: flex;	
 }
 
+#path nav p,a{
+	color: var(--grey-p);
+	font-size: 14px;
+}
+
+#path nav p{
+	margin: 0 8px;
+}
+
+.selectedpage{
+	font-weight: 700;
+}
 
 
 /* Footer -----  */
