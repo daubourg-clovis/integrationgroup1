@@ -27,6 +27,7 @@ body{
 	--grey-p :#A1B1BC;
 	--title-color: #2C3E50;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -100,7 +101,6 @@ a{
 
 /* Header ------ */
 
-	
 
 #header1 .container{
 	display: flex;
