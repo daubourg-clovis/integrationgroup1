@@ -211,7 +211,7 @@ a{
 .menu li a:hover{
 	color: var(--green-color);
 	border-top: 2px solid var(--green-color);
-	padding-top: 2.375rem;
+	padding-top: 2.5rem;
 }
 
 .icon-search::before{
@@ -221,7 +221,7 @@ a{
 }
 
 #header3{
-	height: 121px;
+	height: 7.563rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -240,11 +240,11 @@ a{
 
 #path nav p,a{
 	color: var(--grey-p);
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 #path nav p{
-	margin: 0 8px;
+	margin: 0 0.5rem;
 }
 
 .selectedpage{
