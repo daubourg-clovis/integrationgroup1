@@ -169,3 +169,20 @@ footer section{
 footer #second-footer .socials li a:hover{
 	color: white;
 }
+
+.sfooter4 .lato14reg{
+	line-height: 1.5rem;
+}
+
+#first-footer p{
+	margin-top:0.625rem;
+}
+
+.sfooter4{
+	height: 80%;
+}
+
+.sfooter4 .grey-line {
+	margin-bottom: 1rem;
+	margin-top:1rem;
+}
