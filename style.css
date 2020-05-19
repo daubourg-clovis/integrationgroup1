@@ -30,64 +30,6 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
-
-.lato16black{
-	font-family: "Lato";
-	font-weight: 900;
-	color: white;
-	font-size: 1rem;
-	letter-spacing: 0.3125rem; 
-	margin-bottom: 0.5625rem;
-}
-
-.underline-green{
-	border-bottom: 0.1875rem var(--green-color) solid;
-	width: 4.375rem;
-	margin-bottom: 2.375rem;
-}
-
-.lato16bold{
-	margin-bottom: 0;
-}
-
-.lato16bold a{
-	font-family: "Lato";
-	font-weight: 700;
-	color: #ECF0F1;
-	font-size: 1rem;
-}
-
-
-#first-footer p a:hover{
-	color: var(--green-color);
-}
-
-
-.lato14reg{
-	font-family: "Lato";
-	font-weight: 400;
-	color: var(--grey-p);
-	font-size: 0.875rem;
-}
-
-.lato14black{
-	font-family: "Lato";
-	font-weight: 900;
-	color:var(--green-color);
-	font-size: 0.875rem;
-}
-
-.lato14black:hover{
-	border-bottom: 3px solid var(--green-color)
-}
-
-.lato15reg{
-	font-family: "Lato";
-	font-weight: 400;
-	color: var(--grey-p);
-	font-size: 0.9375rem;
-}
-
 a{
 	text-decoration: none;
 }
@@ -136,7 +78,7 @@ a{
 	font-weight: 900;
 	color: var(--grey-p);
 	border: 1px solid #ECF0F1;
-	border-radius: 0.188;
+	border-radius: 0.188rem;
 	justify-content: center;
 	align-items: center;
 }
@@ -237,6 +179,7 @@ a{
 	font-weight: 400;
 	color: var(--title-color);
 	text-transform: capitalize;
+	font-family: "Footlight MT Light";
 }
 
 #path nav{
@@ -260,6 +203,40 @@ a{
 /* #colonnes{
 	display: flex;
 } */
+
+.titlecolumn{
+	font-family: "Lato";
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--title-color);
+}
+
+.lato14reg{
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.875rem;
+}
+
+.readmore{
+	text-transform: uppercase;
+	color: white;
+	background-color: var(--title-color);
+	border: 1px solid;
+	border-radius: 0.1875rem;
+	padding: 10px;
+	font-weight: 900;
+	font-size: 0.875rem;
+}
+
+.readmore:hover{
+	background-color: var(--green-color);
+}
+
+.contourarticle{
+	border: 1px solid #ECF0F1;
+	background-color: #fff;
+	padding: 1.25rem;
+}
 
 
 
@@ -292,6 +269,42 @@ a{
 
 /* Footer -----  */
 
+.lato16black{
+	font-weight: 900;
+	color: white;
+	font-size: 1rem;
+	letter-spacing: 0.3125rem; 
+	margin-bottom: 0.5625rem;
+}
+
+.lato16bold{
+	margin-bottom: 0;
+}
+
+.lato16bold a{
+	font-weight: 700;
+	color: #ECF0F1;
+	font-size: 1rem;
+}
+
+.green{
+	color:var(--green-color);
+}
+
+.lato14black{
+	font-weight: 900;
+	font-size: 0.875rem;
+}
+
+.lato14black:hover{
+	border-bottom: 3px solid var(--green-color)
+}
+
+.lato15reg{
+	font-weight: 400;
+	color: var(--grey-p);
+	font-size: 0.9375rem;
+}
 
 #first-footer .container{
 	height: 29.188rem;
@@ -308,6 +321,11 @@ a{
 	background-color: #171D22;
 }
 
+.underline-green{
+	border-bottom: 0.1875rem var(--green-color) solid;
+	width: 4.375rem;
+	margin-bottom: 2.375rem;
+}
 
 .grey-line{
 	border: 1px #46515C solid;
@@ -321,24 +339,18 @@ a{
 }
 
 
+#first-footer p a:hover{
+	color: var(--green-color);
+}
 
 #second-footer .container{
 	display: flex;
 	justify-content: space-between;
 }
 
-
-.lato15reg{
-	font-family: "Lato";
-	font-weight: 400;
-	color: var(--grey-p);
-	font-size: 0.9375rem;
-}
-
 .elegant{
 	font-family: 'ElegantIcons';	
 }
-
 
 .icon-facebook::before{
 	content: "";
@@ -394,12 +406,10 @@ footer #second-footer .socials li a:hover{
 .container .sfooter4{
 	height: 72%;
 }
-
 .sfooter4 .grey-line {
 	margin-bottom: 1rem;
 	margin-top:1rem;
 }
-
 
 #second-footer p span{
 	color: var(--green-color);
