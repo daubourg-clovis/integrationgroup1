@@ -335,6 +335,9 @@ a{
 	color: var(--green-color);
 }
 
+#youmaybe a header .youandlink:hover >p{
+	color: var(--green-color);
+}
 
 
 
