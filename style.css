@@ -245,6 +245,7 @@ a{
 
 .far{
 	font-family: "Fontawesome";
+	padding-right: 3px;
 }
 
 
@@ -282,7 +283,7 @@ a{
 	padding: 1.25rem;
 }
 
-#youmaybe p{
+#youmaybe header p{
 	margin: 0;
 	padding: 1.25rem;
 }
@@ -299,6 +300,22 @@ h2 {
 h2 span{
 	align-self: flex-end;
 }
+
+#youmaybe hr{
+	margin-top: 30px;
+	color: #ECF0F1;
+}
+
+.comments{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.vertical-line{
+	border-left: 1px solid var(--grey-p);
+	margin-left: 8px;
+  }
 
 
 
