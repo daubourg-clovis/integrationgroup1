@@ -272,7 +272,7 @@ a{
     box-sizing: border-box;
 	max-width: 368px;
 	border: 1px solid #ECF0F1;
-	padding: 18px 0;
+	padding: 18px 0 10px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 30px;
@@ -283,16 +283,42 @@ a{
 	padding: 0 18px;
 }
 
-#vimeorigami{
-	border: none;
-}
-
 .greyline::after{
 	content: '';
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
 }
+
+.linep{
+	line-height: 24px;
+}
+
+#vimeorigami{
+	border: none;
+}
+
+#divspan{
+	display: flex;
+}
+
+.spanbutton{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* color: white; */
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+.spanbutton:hover{
+	background-color: #21C2F8;
+	border: #21C2F8;	
+}
+
+
 
 
 /* Footer -----  */
