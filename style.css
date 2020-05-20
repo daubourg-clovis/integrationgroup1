@@ -445,6 +445,11 @@ main section footer p a:hover {
 }
 
 /* Vimeo ---  */
+#vimeo-1 footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 #vimeorigami{
 	border: none;
@@ -453,6 +458,11 @@ main section footer p a:hover {
 
 /* Hoverstyle ---  */
 
+#hoverstyle footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 .div-float{
 	max-width: 330px;
@@ -496,6 +506,30 @@ main section footer p a:hover {
 
 .lato14-p{
 	font-size: 0.875rem;
+}
+
+/* Standard blog ---  */
+
+#standardblog footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* loseresponsive ---  */
+
+#loseresponsive footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* onlytext ---  */
+
+#onlytext footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 
