@@ -364,6 +364,14 @@ a{
 	color:var(--title-color)
 }
 
+/* Amazing standar blog Colonne 1 */
+
+.bkimg{
+	background-color: #CCCCCC;
+	width:330px;
+	height: 250px;
+	background-image: url("medias/img1col1.jpg");
+}
 
 
 
