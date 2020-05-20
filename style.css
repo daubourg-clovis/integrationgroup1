@@ -409,7 +409,7 @@ main section footer p a:hover {
 
 
 
-
+/* Column 2 ---  */
 
 #column2{
 	width: 100%;
@@ -444,9 +444,15 @@ main section footer p a:hover {
 	line-height: 24px;
 }
 
+/* Vimeo ---  */
+
 #vimeorigami{
 	border: none;
 }
+
+
+/* Hoverstyle ---  */
+
 
 .div-float{
 	max-width: 330px;
