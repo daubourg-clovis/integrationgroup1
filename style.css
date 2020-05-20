@@ -215,6 +215,7 @@ a{
 	font-weight: 400;
 	color: var(--grey-p);
 	font-size: 0.875rem;
+	line-height: 1.5rem;
 }
 
 .readmore{
@@ -223,10 +224,15 @@ a{
 	background-color: var(--title-color);
 	border: 1px solid;
 	border-radius: 0.1875rem;
-	padding: 10px;
+	padding: 0.875rem;
 	font-weight: 900;
 	font-size: 0.875rem;
 }
+
+.buttonread{
+	margin:1.9375rem 1.875rem;
+}
+
 
 .readmore:hover{
 	background-color: var(--green-color);
@@ -235,23 +241,168 @@ a{
 .contourarticle{
 	border: 1px solid #ECF0F1;
 	background-color: #fff;
-	padding: 1.25rem;
+	width:23.125rem;
+
+}
+
+.lato14bold{
+	font-weight: 700;
+	font-size: 0.875rem;
+}
+
+.far{
+	font-family: "Fontawesome";
+	padding-right: 3px;
+}
+
+section{
+	margin-bottom: 1.875rem;
 }
 
 
 
 
+/* You May Be...*/
+
+.lato30bold{
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 1.875rem;
+	color: white;
+}
+
+#youmaybe{
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+
+.fondbleu{
+	background-color: #21C2F8;
+}
+
+.fondbleu p{
+	color: white;
+}
+
+.ligneblanche{
+	border-bottom: white 1px solid;
+}
+
+.column-margin{
+	margin: 0 1.25rem
+}
+
+.youandlink{
+	margin: 0;
+	line-height: 3.125rem ;
+	padding: 1.25rem;
+}
+
+.youandlink h2{
+	margin: 0;
+}
+
+.youandlink p{
+	padding: 0;
+	margin: 0;
+}
+
+#youmaybe header .http{
+	margin: 0;
+	padding: 0.625rem;
+	color: white;
+}
 
 
+.youandlink {
+	display: flex;
+	flex-direction: row;
+}
+
+.youandlink p{
+	align-self: flex-end;
+}
+
+#youmaybe hr{
+	margin-top: 1.875rem;
+	margin-bottom: 0;
+	color: #ECF0F1;
+}
+
+#youmaybe footer hr{
+	margin-top: 0;
+}
+
+#youmaybe footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.vertical-line{
+	border-left: 1px solid var(--grey-p);
+	margin-left: 1.125rem;
+}
+
+#youmaybe a header:hover{
+	background-color: var(--title-color);
+}
+
+#youmaybe a header:hover >p{
+	color: var(--green-color);
+}
+
+#youmaybe a header .youandlink:hover >p{
+	color: var(--green-color);
+}
+
+main section footer p a:hover {
+	color:var(--title-color)
+}
+
+#youmaybe footer::after{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
+
+#youmaybe footer::before{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
 
+/* Amazing standar blog Colonne 1 */
 
+.bkimg{
+	background-color: #CCCCCC;
+	width:330px;
+	height: 250px;
+	background-image: url("medias/img1col1.jpg");
+}
 
+#amazing1 footer::after{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
+#amazing1 footer::before{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
-
-
-
+#amazing1 footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 
