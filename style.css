@@ -270,25 +270,25 @@ a{
 	color: white;
 }
 
-.fondbleu p::before{
-	content: '';
-	display: block;
-	width: 100%;
-	border-bottom: 1px solid white;
+.ligneblanche{
+	border-bottom: white 1px solid;
+	min-width: 200px;
 }
 
 
 #youmaybe h2{
 	margin: 0;
 	line-height: 3.125rem ;
+	padding: 1.25rem;
 }
 
-#youmaybe header{
+#youmaybe p{
+	margin: 0;
 	padding: 1.25rem;
 }
 
 #youmaybe{
-	width:23.125rem;
+	width:21.875rem;
 }
 
 h2 {
