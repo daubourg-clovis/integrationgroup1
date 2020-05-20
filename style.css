@@ -261,8 +261,22 @@ a{
 
 
 
+#column2{
+	width: 100%;
+	max-width: 368px;
+	max-height: 2843px;
+}
 
-
+.column-width2{
+	margin: 0 ;
+    box-sizing: border-box;
+	max-width: 368px;
+	border: 1px solid;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
 
 
 
