@@ -348,7 +348,7 @@ a{
 	color: var(--green-color);
 }
 
-#youmaybe footer p a:hover {
+main section footer p a:hover {
 	color:var(--title-color)
 }
 
@@ -390,6 +390,11 @@ a{
 	border-bottom: 1px solid #ECF0F1;
 }
 
+#amazing1 footer div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 
