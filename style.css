@@ -238,7 +238,10 @@ a{
 	padding: 1.25rem;
 }
 
-
+.lato14bold{
+	font-weight: 700;
+	font-size: 0.875rem;
+}
 
 
 
@@ -254,6 +257,16 @@ a{
 	font-size: 1.875rem;
 	color: white;
 }
+
+.fondbleu{
+	background-color: #21C2F8;
+}
+
+.fondbleu p{
+	color: white;
+}
+
+
 
 
 
