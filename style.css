@@ -235,7 +235,8 @@ a{
 .contourarticle{
 	border: 1px solid #ECF0F1;
 	background-color: #fff;
-	padding: 1.25rem;
+	width:23.125rem;
+
 }
 
 .lato14bold{
@@ -263,6 +264,11 @@ a{
 	color: white;
 }
 
+#youmaybe{
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+
 .fondbleu{
 	background-color: #21C2F8;
 }
@@ -273,9 +279,11 @@ a{
 
 .ligneblanche{
 	border-bottom: white 1px solid;
-	min-width: 200px;
 }
 
+.column-margin{
+	margin: 0 1.25rem
+}
 
 .youandlink{
 	margin: 0;
@@ -295,11 +303,9 @@ a{
 #youmaybe header .http{
 	margin: 0;
 	padding: 0.625rem;
+	color: white;
 }
 
-#youmaybe{
-	width:21.875rem;
-}
 
 .youandlink {
 	display: flex;
@@ -312,10 +318,15 @@ a{
 
 #youmaybe hr{
 	margin-top: 1.875rem;
+	margin-bottom: 0;
 	color: #ECF0F1;
 }
 
-.comments{
+#youmaybe footer hr{
+	margin-top: 0;
+}
+
+#youmaybe footer div{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -324,7 +335,7 @@ a{
 .vertical-line{
 	border-left: 1px solid var(--grey-p);
 	margin-left: 1.125rem;
-  }
+}
 
 #youmaybe a header:hover{
 	background-color: var(--title-color);
@@ -338,16 +349,19 @@ a{
 	color: var(--green-color);
 }
 
-.comments p a:hover {
+#youmaybe footer p a:hover {
 	color:var(--title-color)
 }
 
 
 
 
-
-
-
+.greyline::after{
+	content:'';
+	display: block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
 
 
