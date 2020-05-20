@@ -249,8 +249,19 @@ a{
 	padding-right: 3px;
 }
 
+#youmaybe footer::after{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
-
+#youmaybe footer::before{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
 
 
@@ -356,12 +367,7 @@ a{
 
 
 
-.greyline::after{
-	content:'';
-	display: block;
-	width:100%;
-	border-bottom: 1px solid #ECF0F1;
-}
+
 
 
 
