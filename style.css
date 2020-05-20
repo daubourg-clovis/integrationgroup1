@@ -301,7 +301,6 @@ a{
 	width:21.875rem;
 }
 
-
 .youandlink {
 	display: flex;
 	flex-direction: row;
@@ -339,6 +338,9 @@ a{
 	color: var(--green-color);
 }
 
+.comments p a:hover {
+	color:var(--title-color)
+}
 
 
 
