@@ -285,7 +285,7 @@ a{
 
 #youmaybe header p{
 	margin: 0;
-	padding: 1.25rem;
+	padding: 0.625rem;
 }
 
 #youmaybe{
@@ -317,9 +317,15 @@ h2 span{
 	margin-left: 1.125rem;
   }
 
- .comments a:hover{
-	  color:var(--title-color);
-  }
+#youmaybe a header:hover{
+	background-color: var(--title-color);
+}
+
+#youmaybe a header:hover >p{
+	color: var(--green-color);
+}
+
+
 
 
 
