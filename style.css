@@ -277,13 +277,22 @@ a{
 }
 
 
-#youmaybe h2{
+.youandlink{
 	margin: 0;
 	line-height: 3.125rem ;
 	padding: 1.25rem;
 }
 
-#youmaybe header p{
+.youandlink h2{
+	margin: 0;
+}
+
+.youandlink p{
+	padding: 0;
+	margin: 0;
+}
+
+#youmaybe header .http{
 	margin: 0;
 	padding: 0.625rem;
 }
@@ -292,12 +301,13 @@ a{
 	width:21.875rem;
 }
 
-h2 {
+
+.youandlink {
 	display: flex;
-	justify-content: end;
+	flex-direction: row;
 }
 
-h2 span{
+.youandlink p{
 	align-self: flex-end;
 }
 
