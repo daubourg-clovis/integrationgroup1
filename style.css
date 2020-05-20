@@ -299,12 +299,13 @@ a{
 }
 
 .div-float{
+	max-width: 330px;
+	min-height: 250px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
-	top: -50;
+	background-color: #545760;
 }
 
 #divspan{
@@ -315,11 +316,11 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* color: white; */
 	width: 40px;
 	height: 40px;
 	border: 1px solid white;
 	border-radius: 50px;
+	margin-right: 10px;
 }
 
 .spanbutton:hover{
@@ -327,7 +328,19 @@ a{
 	border: #21C2F8;	
 }
 
+.div-float p,h3{
+	color: white;
+	text-align: center;
+}
 
+.div-float h3{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.lato14-p{
+	font-size: 0.875rem;
+}
 
 
 /* Footer -----  */
