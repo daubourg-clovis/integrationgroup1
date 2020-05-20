@@ -215,6 +215,7 @@ a{
 	font-weight: 400;
 	color: var(--grey-p);
 	font-size: 0.875rem;
+	line-height: 1.5rem;
 }
 
 .readmore{
@@ -223,10 +224,15 @@ a{
 	background-color: var(--title-color);
 	border: 1px solid;
 	border-radius: 0.1875rem;
-	padding: 10px;
+	padding: 0.875rem;
 	font-weight: 900;
 	font-size: 0.875rem;
 }
+
+.buttonread{
+	margin:1.9375rem 1.875rem;
+}
+
 
 .readmore:hover{
 	background-color: var(--green-color);
@@ -249,7 +255,9 @@ a{
 	padding-right: 3px;
 }
 
-
+section{
+	margin-bottom: 1.875rem;
+}
 
 
 
