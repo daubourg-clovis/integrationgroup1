@@ -249,19 +249,7 @@ a{
 	padding-right: 3px;
 }
 
-#youmaybe footer::after{
-	content:'';
-	display:block;
-	width:100%;
-	border-bottom: 1px solid #ECF0F1;
-}
 
-#youmaybe footer::before{
-	content:'';
-	display:block;
-	width:100%;
-	border-bottom: 1px solid #ECF0F1;
-}
 
 
 
@@ -364,6 +352,21 @@ a{
 	color:var(--title-color)
 }
 
+#youmaybe footer::after{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
+
+#youmaybe footer::before{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
+
+
 /* Amazing standar blog Colonne 1 */
 
 .bkimg{
@@ -373,7 +376,19 @@ a{
 	background-image: url("medias/img1col1.jpg");
 }
 
+#amazing1 footer::after{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
+#amazing1 footer::before{
+	content:'';
+	display:block;
+	width:100%;
+	border-bottom: 1px solid #ECF0F1;
+}
 
 
 
