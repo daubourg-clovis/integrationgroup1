@@ -271,10 +271,11 @@ a{
 	margin: 0 ;
     box-sizing: border-box;
 	max-width: 368px;
-	border: 1px solid;
+	border: 1px solid #ECF0F1;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 30px;
 	
 }
 
