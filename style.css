@@ -342,7 +342,11 @@ section{
 	color: var(--green-color);
 }
 
-#youmaybe a header .youandlink:hover >p{
+#youmaybe a header:hover >p {
+	color: var(--green-color);
+}
+
+#youmaybe a header:hover >span {
 	color: var(--green-color);
 }
 
