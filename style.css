@@ -292,7 +292,7 @@ main section footer div p:hover >a {
 	color: white;
 }
 
-#youmaybe{
+#youmaybe11{
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
 }
@@ -313,12 +313,12 @@ main section footer div p:hover >a {
 	margin: 0;
 }
 
-#youmaybe header span{
+#youmaybe1 header span{
 	float: right;
 	margin-top: -50px;
 }
 
-#youmaybe header .http{
+#youmaybe1 header .http{
 	margin: 0 0 34px 0;
 	padding: 0.625rem;
 	color: white;
@@ -329,15 +329,15 @@ main section footer div p:hover >a {
 	margin-left: 1.125rem;
 }
 
-#youmaybe a header:hover{
+#youmaybe1 a header:hover{
 	background-color: var(--title-color);
 }
 
-#youmaybe a header:hover> span{
+#youmaybe1 a header:hover> span{
 	color: var(--green-color);
 }
 
-#youmaybe a header:hover >p {
+#youmaybe1 a header:hover >p {
 	color: var(--green-color);
 }
 
@@ -359,6 +359,44 @@ main section footer div p:hover >a {
 
 /* Slider1 Colonne 1*/
 
+.slider {
+	width: 330px;
+	height: 250px;
+	overflow: hidden;
+
+}
+.slides {
+	width: calc(330px * 3);
+	animation: glisse 10s infinite;
+}
+
+.slide {
+	float: left;
+}
+
+@keyframes glisse {
+	0% {
+		transform: translateX(0);
+	}
+	10% {
+		transform: translateX(0);
+	}
+	33% {
+		transform: translateX(-330px);
+	}
+	43% {
+		transform: translateX(-330px);
+	}
+	66% {
+		transform: translateX(-660px);
+	}
+	76% {
+		transform: translateX(-660px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
 
 
 
