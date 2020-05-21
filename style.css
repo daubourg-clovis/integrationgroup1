@@ -276,6 +276,11 @@ main section footer div p:hover >a {
 	color:var(--title-color);
 }
 
+#com-month-likes{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 /* You May Be...*/
@@ -319,12 +324,6 @@ main section footer div p:hover >a {
 	color: white;
 }
 
-#youmaybe footer div{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
 .vertical-line{
 	border-left: 1px solid var(--grey-p);
 	margin-left: 1.125rem;
@@ -354,11 +353,7 @@ main section footer div p:hover >a {
 	background-image: url("medias/img1col1.jpg");
 }
 
-#amazing1 footer div{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+
 
 
 
