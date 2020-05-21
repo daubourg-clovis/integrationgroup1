@@ -358,6 +358,29 @@ main section footer div p:hover >a {
 }
 
 /* Slider1 Colonne 1*/
+.image1{
+    width:330px;
+    height: 250px;
+    background-image: url("medias/slide1-1.jpg");
+}
+
+.image2{
+    width:330px;
+    height: 250px;
+    background-image: url("medias/slide1-2.jpg");
+}
+
+.image3{
+    width:330px;
+    height: 250px;
+    background-image: url("medias/slide1-3.jpg");
+}
+
+.fa-expand-alt{
+	font-size: 16px;
+	color: #cfdfe9;
+
+}
 
 .slider {
 	width: 330px;
@@ -398,6 +421,16 @@ main section footer div p:hover >a {
 		transform: translateX(0);
 	}
 }
+
+.margslide{
+	float: right;
+	margin: 20px 24px;
+}
+
+.fa-expand-alt:hover{
+	color: var(--title-color)
+}
+
 
 .relative{
 	position: relative;
