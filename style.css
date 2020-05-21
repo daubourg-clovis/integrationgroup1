@@ -391,7 +391,7 @@ main section footer div p:hover >a {
 }
 .slides {
 	width: calc(330px * 3);
-	animation: glisse 10s infinite;
+	animation: glisse 15s infinite;
 }
 
 .slide {
@@ -428,7 +428,8 @@ main section footer div p:hover >a {
 }
 
 .fa-expand-alt:hover{
-	color: var(--title-color)
+	color: var(--green-color);
+	font-size: 30px;
 }
 
 
