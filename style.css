@@ -363,6 +363,7 @@ main section footer div p:hover >a {
 	width: 330px;
 	height: 250px;
 	overflow: hidden;
+	margin-left: 18px;
 
 }
 .slides {
@@ -398,7 +399,9 @@ main section footer div p:hover >a {
 	}
 }
 
-
+.relative{
+	position: relative;
+}
 
 
 
