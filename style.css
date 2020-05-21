@@ -272,6 +272,10 @@ section{
 	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
 }
 
+main section footer div p:hover >a {
+	color:var(--title-color);
+}
+
 
 
 /* You May Be...*/
@@ -290,7 +294,9 @@ section{
 
 .fondbleu{
 	background-color: #21C2F8;
-}
+	margin: 0 1.25rem;
+	padding-top: 1px;
+	}
 
 .fondbleu p{
 	color: white;
@@ -302,26 +308,16 @@ section{
 	margin: 0;
 }
 
-.column-margin{
-	margin: 0 1.25rem
+#youmaybe span{
+	float: right;
+	margin-top: -50px;
 }
 
-
 #youmaybe header .http{
-	margin: 0;
+	margin: 0 0 34px 0;
 	padding: 0.625rem;
 	color: white;
 }
-
-#youmaybe header{
-	display: flex;
-	flex-direction: column;
-}
-
-#youmaybe  span{
-	
-}
-
 
 #youmaybe footer div{
 	display: flex;
@@ -338,7 +334,7 @@ section{
 	background-color: var(--title-color);
 }
 
-#youmaybe a header:hover >p{
+#youmaybe a header:hover> span{
 	color: var(--green-color);
 }
 
@@ -346,13 +342,8 @@ section{
 	color: var(--green-color);
 }
 
-#youmaybe a header:hover >span {
-	color: var(--green-color);
-}
 
-main section footer p a:hover {
-	color:var(--title-color)
-}
+
 
 /* Amazing standar blog Colonne 1 */
 
@@ -368,6 +359,8 @@ main section footer p a:hover {
 	justify-content: space-between;
 	align-items: center;
 }
+
+
 
 
 
