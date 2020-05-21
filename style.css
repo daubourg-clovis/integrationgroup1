@@ -252,7 +252,7 @@ a{
 	font-size: 0.875rem;
 }
 
-.far{
+.far .fas{
 	font-family: "Fontawesome";
 	padding-right: 3px;
 }
@@ -344,15 +344,22 @@ main section footer div p:hover >a {
 
 
 
-/* Amazing standar blog Colonne 1 */
+/* Amazing standard blog Colonne 1 */
 
-.bkimg{
+.bkcolorimg{
 	background-color: #CCCCCC;
 	width:330px;
 	height: 250px;
-	background-image: url("medias/img1col1.jpg");
 	margin: 0;
 }
+
+.imgamaz1{
+	background-image: url("medias/img1col1.jpg");
+}
+
+/* Slider1 Colonne 1*/
+
+
 
 
 
