@@ -313,7 +313,6 @@ section{
 	color: white;
 }
 
-
 .youandlink {
 	display: flex;
 	flex-direction: row;
@@ -329,9 +328,6 @@ section{
 	color: #ECF0F1;
 }
 
-#youmaybe footer hr{
-	margin-top: 0;
-}
 
 #youmaybe footer div{
 	display: flex;
@@ -394,7 +390,7 @@ main section footer p a:hover {
 #amazing1 footer::before{
 	content:'';
 	display:block;
-	width:100%;
+	width: 100%;
 	border-bottom: 1px solid #ECF0F1;
 }
 
