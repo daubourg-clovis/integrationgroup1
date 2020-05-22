@@ -473,7 +473,10 @@ main section footer div p:hover >a {
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
+	
 }
+
+
 
 .linep{
 	line-height: 24px;
@@ -487,8 +490,10 @@ main section footer div p:hover >a {
 }
 
 #vimeorigami{
-	border: none;
+	width: 330px;
+	height: 250px;
 }
+
 
 
 /* Hoverstyle ---  */
@@ -541,6 +546,10 @@ main section footer div p:hover >a {
 
 .lato14-p{
 	font-size: 0.875rem;
+}
+
+.margin-line{
+	margin-top: 30px;
 }
 
 /* Standard blog ---  */
