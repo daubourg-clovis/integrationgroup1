@@ -36,7 +36,7 @@ a{
 
 .container{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -243,7 +243,7 @@ a{
 	border: 1px solid #ECF0F1;
 	background-color: #fff;
 	max-width:23.125rem;
-	padding: 18px 0 10px
+	padding: 1.125rem 0 0.625rem;
 
 }
 
@@ -254,7 +254,7 @@ a{
 
 .far .fas{
 	font-family: "Fontawesome";
-	padding-right: 3px;
+	padding-right: 0.1875rem;
 }
 
 section{
@@ -262,7 +262,7 @@ section{
 }
 
 .column-padding{
-	padding: 0 18px;
+	padding: 0 1.125rem;
 }
 
 .greyline::after{
@@ -303,7 +303,7 @@ iframe{
 .fondbleu{
 	background-color: #21C2F8;
 	margin: 0 1.25rem;
-	padding-top: 1px;
+	padding-top: 0.0625rem;
 	}
 
 .fondbleu p{
@@ -318,11 +318,11 @@ iframe{
 
 #youmaybe1 header span{
 	float: right;
-	margin-top: -50px;
+	margin-top: -3.125rem;
 }
 
 #youmaybe1 header .http{
-	margin: 0 0 34px 0;
+	margin: 0 0 2.125rem 0;
 	padding: 0.625rem;
 	color: white;
 }
@@ -351,8 +351,8 @@ iframe{
 
 .bkcolorimg{
 	background-color: #CCCCCC;
-	width:330px;
-	height: 250px;
+	width:20.625rem;
+	height: 15.625rem;
 	margin: 0;
 }
 
@@ -362,40 +362,40 @@ iframe{
 
 /* Slider1 Colonne 1*/
 .image1{
-    width:330px;
-    height: 250px;
+    width:20.625rem;
+    height: 15.625rem;
     background-image: url("medias/slide1-1.jpg");
 }
 
 .image2{
-    width:330px;
-    height: 250px;
+    width:20.625rem;
+    height: 15.625rem;
     background-image: url("medias/slide1-2.jpg");
 }
 
 .image3{
-    width:330px;
-    height: 250px;
+    width:20.625rem;
+    height: 15.625rem;
     background-image: url("medias/slide1-3.jpg");
 }
 
 .fa-expand-alt{
-	font-size: 16px;
+	font-size: 1rem;
 	color: #cfdfe9;
 
 }
 
 .slider {
-	width: 330px;
-	height: 250px;
+	width: 20.625rem;
+	height: 15.625rem;
 	overflow: hidden;
-	margin-left: 18px;
+	margin-left: 1.125rem;
 	position: relative;
 	z-index: 1;
 
 }
 .slides {
-	width: calc(330px * 3);
+	width: calc(20.625rem * 3);
 	animation: glisse 15s infinite;
 	position: relative;
 	z-index: 2;
@@ -415,16 +415,16 @@ iframe{
 		transform: translateX(0);
 	}
 	33% {
-		transform: translateX(-330px);
+		transform: translateX(-20.625rem);
 	}
 	43% {
-		transform: translateX(-330px);
+		transform: translateX(-20.625rem);
 	}
 	66% {
-		transform: translateX(-660px);
+		transform: translateX(-41.25rem);
 	}
 	76% {
-		transform: translateX(-660px);
+		transform: translateX(-41.25rem);
 	}
 	100% {
 		transform: translateX(0);
@@ -433,31 +433,31 @@ iframe{
 
 .margslide{
 	float: right;
-	margin: 20px 24px;
+	margin: 1.25rem 1.5rem;
 }
 
 .fa-expand-alt:hover{
 	color: var(--green-color);
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 .carreslide{
 	border: 1px solid white;
-	padding: 10px;
+	padding: 0.625rem;
 	border-radius: 2.25px;
 	background-color: #fff;
 }
 
 .fa-angle-left{
 	position: absolute;
-	margin:115px 0 300px ;
+	margin:7.1875rem 0 18.75rem;
 	color: var(--title-color)
 
 }
 
 .fa-angle-right{
 	position: absolute;
-	margin:115px 300px 0 ;
+	margin:7.1875rem 18.75rem 0 ;
 	color: var(--title-color)
 }
 
