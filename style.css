@@ -199,9 +199,7 @@ a{
 
 /* Main ----  */
 
-/* #colonnes{
-	display: flex;
-} */
+/* 250 */
 
 .titlecolumn{
 	font-family: "Lato";
@@ -501,6 +499,11 @@ iframe{
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid rgba(122, 121, 121, 0.356);
+	
+}
+
+.margin-read{
+	margin-top: 1.9375rem;
 }
 
 .linep{
@@ -512,10 +515,6 @@ iframe{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-#vimeorigami{
-	border: none;
 }
 
 
@@ -571,6 +570,10 @@ iframe{
 	font-size: 0.875rem;
 }
 
+.margin-line{
+	margin-top: 30px;
+}
+
 /* Standard blog ---  */
 
 #standardblog footer div{
@@ -580,6 +583,31 @@ iframe{
 }
 
 /* loseresponsive ---  */
+
+
+#loseresponsive header span{
+	float: right;
+	margin-top: -50px;
+}
+
+#loseresponsive header .http{
+	margin: 0 0 34px 0;
+	padding: 0.625rem;
+	color: white;
+}
+
+#loseresponsive a header:hover{
+	background-color: var(--title-color);
+}
+
+#loseresponsive a header:hover> span{
+	color: var(--green-color);
+}
+
+#loseresponsive a header:hover >p {
+	color: var(--green-color);
+}
+
 
 #loseresponsive footer div{
 	display: flex;
@@ -593,6 +621,32 @@ iframe{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+#onlytext-hoverstyle:hover{
+	background-color: var(--title-color);
+}
+
+#onlytext-hoverstyle:hover h2{
+	color: white;
+}
+
+#onlytext-hoverstyle:hover p{
+	color: white;
+}
+
+#onlytext-hoverstyle:hover h2 span{
+	display: none;
+}
+#onlytext-hoverstyle:hover h2::after{
+	content: '- Hover Style';
+}
+#onlytext-hoverstyle:hover p span{
+	color: var(--green-color);
+}
+
+#onlytext-hoverstyle:hover a{
+	color: white;
 }
 
 
