@@ -445,14 +445,14 @@ iframe{
 	background-color: #fff;
 }
 
-.fa-angle-left{
+.slides .fa-angle-left{
 	position: absolute;
 	margin:7.1875rem 0 18.75rem;
 	color: var(--title-color)
 
 }
 
-.fa-angle-right{
+.slides .fa-angle-right{
 	position: absolute;
 	margin:7.1875rem 18.75rem 0 ;
 	color: var(--title-color)
@@ -650,6 +650,12 @@ iframe{
 }
 
 
+/* Pagination */
+
+#pagination p span{
+	color: var(--green-color);
+}
+
 /* Footer -----  */
 
 .lato16black{
@@ -765,7 +771,7 @@ iframe{
 	content: '';
 }
 
-.socials ul{
+.socials, .page ul{
 	list-style: none;
 	display: flex;
 }
