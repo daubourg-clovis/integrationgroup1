@@ -273,7 +273,7 @@ main section footer div p:hover >a {
 	color:var(--title-color);
 }
 
-#com-month-likes{
+.com-month-likes{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
