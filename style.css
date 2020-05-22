@@ -387,15 +387,21 @@ main section footer div p:hover >a {
 	height: 250px;
 	overflow: hidden;
 	margin-left: 18px;
+	position: relative;
+	z-index: 1;
 
 }
 .slides {
 	width: calc(330px * 3);
 	animation: glisse 15s infinite;
+	position: relative;
+	z-index: 2;
 }
 
 .slide {
 	float: left;
+	position: relative;
+	z-index: 3;
 }
 
 @keyframes glisse {
@@ -439,7 +445,22 @@ main section footer div p:hover >a {
 	background-color: #fff;
 }
 
+.fa-angle-left{
+	position: absolute;
+	margin:115px 0 300px ;
+	color: var(--title-color)
 
+}
+
+.fa-angle-right{
+	position: absolute;
+	margin:115px 300px 0 ;
+	color: var(--title-color)
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover{
+	color:var(--green-color)
+}
 
 
 
