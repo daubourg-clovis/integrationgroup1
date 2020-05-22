@@ -199,9 +199,7 @@ a{
 
 /* Main ----  */
 
-/* #colonnes{
-	display: flex;
-} */
+/* 250 */
 
 .titlecolumn{
 	font-family: "Lato";
@@ -489,12 +487,6 @@ main section footer div p:hover >a {
 	align-items: center;
 }
 
-#vimeorigami{
-	width: 330px;
-	height: 250px;
-}
-
-
 
 /* Hoverstyle ---  */
 
@@ -561,6 +553,30 @@ main section footer div p:hover >a {
 }
 
 /* loseresponsive ---  */
+
+#loseresponsive header span{
+	float: right;
+	margin-top: -50px;
+}
+
+#loseresponsive header .http{
+	margin: 0 0 34px 0;
+	padding: 0.625rem;
+	color: white;
+}
+
+#loseresponsive a header:hover{
+	background-color: var(--title-color);
+}
+
+#loseresponsive a header:hover> span{
+	color: var(--green-color);
+}
+
+#loseresponsive a header:hover >p {
+	color: var(--green-color);
+}
+
 
 #loseresponsive footer div{
 	display: flex;
