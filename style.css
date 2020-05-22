@@ -376,7 +376,7 @@ iframe{
     background-image: url("medias/slide1-3.jpg");
 }
 
-.fa-expand-alt{
+.slides .fa-expand-alt{
 	font-size: 1rem;
 	color: #cfdfe9;
 
@@ -433,7 +433,7 @@ iframe{
 	margin: 1.25rem 1.5rem;
 }
 
-.fa-expand-alt:hover{
+.slides .fa-expand-alt:hover{
 	color: var(--green-color);
 	font-size: 1.875rem;
 }
@@ -445,14 +445,14 @@ iframe{
 	background-color: #fff;
 }
 
-.fa-angle-left{
+.slides .fa-angle-left{
 	position: absolute;
 	margin:7.1875rem 0 18.75rem;
 	color: var(--title-color)
 
 }
 
-.fa-angle-right{
+.slides .fa-angle-right{
 	position: absolute;
 	margin:7.1875rem 18.75rem 0 ;
 	color: var(--title-color)
@@ -676,33 +676,45 @@ iframe{
 	align-items: center;
 }
 
-.imgposition{
-	z-index: 3;
+.titleposition{
+	position: relative;
+	left: -18px;
 }
-.flèches {
 
+.flèches {
 	float: left;
 	position: relative;
-	z-index: 2;
 }
 
 .arrowleft{
 	position: absolute;
 	top: -335px;
-	color: var(--title-color)
-
+	color: var(--title-color);
+	margin:7.1875rem 0 18.75rem;
 }
 
 .arrowright{
 	position: absolute;
 	top: -335px;
-	color: var(--title-color)
+	color: var(--title-color);
+	margin:7.1875rem 18.75rem 0 ;
 }
 
 .expandarrow{
 	position: relative;
-	z-index: 1;
+	color:var(--title-color);
 	top: -400px;
+	left: 295px;
+}
+
+.expandarrow:hover{
+	color: var(--green-color);
+}
+
+.carreblanc{
+	border: 1px solid white;
+	background-color: white;	
+	border-radius: 2.25px;
 }
 
 
@@ -812,6 +824,31 @@ iframe{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.arrowleft2{
+	position: absolute;
+	top: -260px;
+	color: var(--title-color);
+	margin:7.1875rem 0 18.75rem;
+}
+
+.arrowright2{
+	position: absolute;
+	top: -260px;
+	color: var(--title-color);
+	margin:7.1875rem 18.75rem 0 ;
+}
+
+.expandarrow2{
+	position: relative;
+	color:var(--title-color);
+	top: -255px;
+	left: 295px;
+}
+
+.expandarrow2:hover{
+	color: var(--green-color);
 }
 
 
