@@ -474,7 +474,9 @@ main section footer div p:hover >a {
 	
 }
 
-
+.margin-read{
+	margin-top: 1.9375rem;
+}
 
 .linep{
 	line-height: 24px;
@@ -554,6 +556,7 @@ main section footer div p:hover >a {
 
 /* loseresponsive ---  */
 
+
 #loseresponsive header span{
 	float: right;
 	margin-top: -50px;
@@ -592,9 +595,31 @@ main section footer div p:hover >a {
 	align-items: center;
 }
 
+#onlytext-hoverstyle:hover{
+	background-color: var(--title-color);
+}
 
+#onlytext-hoverstyle:hover h2{
+	color: white;
+}
 
+#onlytext-hoverstyle:hover p{
+	color: white;
+}
 
+#onlytext-hoverstyle:hover h2 span{
+	display: none;
+}
+#onlytext-hoverstyle:hover h2::after{
+	content: '- Hover Style';
+}
+#onlytext-hoverstyle:hover p span{
+	color: var(--green-color);
+}
+
+#onlytext-hoverstyle:hover a{
+	color: white;
+}
 
 
 /* Footer -----  */
