@@ -723,6 +723,31 @@ iframe{
 	align-items: center;
 }
 
+#onlytext2-hoverstyle:hover{
+	background-color: var(--title-color);
+}
+
+#onlytext2-hoverstyle:hover h2{
+	color: white;
+}
+
+#onlytext2-hoverstyle:hover p{
+	color: white;
+}
+
+#onlytext2-hoverstyle:hover h2 span{
+	display: none;
+}
+#onlytext2-hoverstyle:hover h2::after{
+	content: '- Hover Style';
+}
+#onlytext2-hoverstyle:hover p span{
+	color: var(--green-color);
+}
+
+#onlytext2-hoverstyle:hover a{
+	color: white;
+}
 
 /* Vimeo 2 ----  */
 
