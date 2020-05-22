@@ -675,7 +675,16 @@ iframe{
 	margin: 0.625rem;
 }
 
-#pagination ul li a .fa-angle-left,.fa-angle-right{
+#pagination ul li a .fa-angle-left{
+	border: 1px solid var(--black-footer);
+	background-color: var(--black-footer);
+	padding: 18px 23px ;
+	border-radius: 3px;
+	color: white;
+	margin: 0.625rem;
+}
+
+#pagination ul li a .fa-angle-right{
 	border: 1px solid var(--black-footer);
 	background-color: var(--black-footer);
 	padding: 18px 23px ;
@@ -689,12 +698,12 @@ iframe{
 	background-color: var(--title-color);
 }
 
-#pagination .fa-angle-left:hover{
+#pagination li .fa-angle-left:hover{
 	color: var(--green-color);
 	background-color: var(--title-color);
 }
 
-#pagination .fa-home:hover{
+#pagination li .fa-home:hover{
 	color: var(--green-color);
 	background-color: var(--title-color);
 }
