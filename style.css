@@ -548,7 +548,7 @@ iframe{
 	height: 40px;
 	border: 1px solid white;
 	border-radius: 50px;
-	margin-right: 10px;
+	margin-right: 0.625rem;
 }
 
 .spanbutton:hover{
@@ -654,6 +654,10 @@ iframe{
 
 /* Pagination */
 
+#pagination ul{
+	list-style: none;
+}
+
 #pagination p:first-child{
 	color: var(--grey-p);;
 }
@@ -662,13 +666,48 @@ iframe{
 	color: var(--green-color);
 }
 
-#pagination ul li a{
+#pagination ul li a .fa-home{
 	border: 1px solid var(--black-footer);
 	background-color: var(--black-footer);
 	padding: 18px;
+	border-radius: 3px;
 	color: white;
+	margin: 0.625rem;
 }
 
+#pagination ul li a .fa-angle-left,.fa-angle-right{
+	border: 1px solid var(--black-footer);
+	background-color: var(--black-footer);
+	padding: 18px 23px ;
+	border-radius: 3px;
+	color: white;
+	margin: 0.625rem;
+}
+
+#pagination .fa-angle-right:hover{
+	color: var(--green-color);
+	background-color: var(--title-color);
+}
+
+#pagination .fa-angle-left:hover{
+	color: var(--green-color);
+	background-color: var(--title-color);
+}
+
+#pagination .fa-home:hover{
+	color: var(--green-color);
+	background-color: var(--title-color);
+}
+
+#pagination{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.page ul{
+	display: flex;
+}
 
 
 /* Footer -----  */
@@ -786,7 +825,7 @@ iframe{
 	content: '';
 }
 
-.socials, .page ul{
+.socials ul{
 	list-style: none;
 	display: flex;
 }
