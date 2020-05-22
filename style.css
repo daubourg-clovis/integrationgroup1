@@ -649,7 +649,13 @@ iframe{
 	color: white;
 }
 
+/* Column 3 ---  */
 
+#column3{
+	width: 100%;
+	max-width: 368px;
+
+}
 /* Footer -----  */
 
 .lato16black{
