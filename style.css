@@ -654,7 +654,18 @@ iframe{
 #column3{
 	width: 100%;
 	max-width: 368px;
+}
 
+.column-width3{
+	margin: 0 ;
+    box-sizing: border-box;
+	max-width: 368px;
+	border: 1px solid #ECF0F1;
+	padding: 18px 0 10px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	
 }
 /* Footer -----  */
 
