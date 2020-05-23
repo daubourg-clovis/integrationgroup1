@@ -199,7 +199,9 @@ a{
 
 /* Main ----  */
 
-/* 250 */
+#colonnes{
+	display: flex;
+}
 
 .titlecolumn{
 	font-family: "Lato";
