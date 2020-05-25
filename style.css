@@ -1093,14 +1093,36 @@ footer #second-footer li a:hover{
 
 @media only screen and (min-width:992px) and (max-width: 1199.98px) 
 {
-
-
 	.container{
 		max-width: 100%;
 		padding: 0 1rem;
 	}
 
-	/* footer */
+	/* Header ---  */
+
+	.lang{
+		margin-right: 25rem;
+	}
+
+	#header2 .container{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.menu{
+		margin-bottom: 1rem;
+	}
+
+	.menu li:hover{
+		border-top: none;
+	}
+
+	/* Main ---  */
+
+	#colonnes{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
 
 	.grey-line{
 		width: 11.875rem;
@@ -1174,7 +1196,7 @@ footer #second-footer li a:hover{
 
 @media only screen and (max-width : 479.98px) 
 {
-	
+
 
 
 
