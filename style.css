@@ -200,6 +200,10 @@ a{
 
 /* Main ----  */
 
+main{
+	background-color: #ECF0F1;
+}
+
 #colonnes{
 	display: flex;
 	flex-direction: row;
@@ -491,6 +495,7 @@ iframe{
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.875rem;
+	background-color: white;
 	
 }
 
