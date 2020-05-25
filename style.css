@@ -1216,7 +1216,13 @@ footer #second-footer li a:hover{
 	  line-height: 30px;
 	}
 
+	#header3{
+		justify-content: center;
+	}
 
+	#path{
+		display: none;
+	}
 	/* Main ---  */
 
 	#colonnes{
