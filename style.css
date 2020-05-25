@@ -204,6 +204,10 @@ main{
 	background-color: #ECF0F1;
 }
 
+#column-1, #column-2, #column-3{
+	margin-top: 6.25rem;
+}
+
 #colonnes{
 	display: flex;
 	flex-direction: row;
@@ -674,6 +678,7 @@ iframe{
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.875rem;
+	background-color: white;
 	
 }
 
