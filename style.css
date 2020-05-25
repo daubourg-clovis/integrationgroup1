@@ -479,24 +479,23 @@ iframe{
 
 #column2{
 	width: 100%;
-	max-width: 368px;
-	max-height: 2843px;
+	max-width: 23.125rem;
 }
 
 .column-width2{
 	margin: 0 ;
     box-sizing: border-box;
-	max-width: 368px;
+	max-width: 23.125rem;
 	border: 1px solid #ECF0F1;
-	padding: 18px 0 10px;
+	padding: 1.125rem 0 0.625rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 	
 }
 
 .column-padding{
-	padding: 0 18px;
+	padding: 0 1.125rem;
 }
 
 .greyline::after{
@@ -512,7 +511,7 @@ iframe{
 }
 
 .linep{
-	line-height: 24px;
+	line-height: 1.5rem;
 }
 
 /* Vimeo ---  */
@@ -532,8 +531,8 @@ iframe{
 }
 
 .div-float{
-	max-width: 330px;
-	min-height: 250px;
+	max-width: 20.625rem;
+	min-height: 15.625rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -549,10 +548,10 @@ iframe{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 40px;
-	height: 40px;
+	width: 2.5rem;
+	height: 2.5rem;
 	border: 1px solid white;
-	border-radius: 50px;
+	border-radius: 3.125rem;
 	margin-right: 0.625rem;
 }
 
@@ -567,7 +566,7 @@ iframe{
 }
 
 .div-float h3{
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 700;
 }
 
@@ -576,7 +575,7 @@ iframe{
 }
 
 .margin-line{
-	margin-top: 30px;
+	margin-top: 1.875rem;
 }
 
 /* Standard blog ---  */
@@ -592,11 +591,11 @@ iframe{
 
 #loseresponsive header span{
 	float: right;
-	margin-top: -50px;
+	margin-top: -3.125rem;
 }
 
 #loseresponsive header .http{
-	margin: 0 0 34px 0;
+	margin: 0 0 2.125rem 0;
 	padding: 0.625rem;
 	color: white;
 }
@@ -658,18 +657,18 @@ iframe{
 
 #column3{
 	width: 100%;
-	max-width: 368px;
+	max-width: 23.125rem;
 }
 
 .column-width3{
 	margin: 0 ;
     box-sizing: border-box;
-	max-width: 368px;
+	max-width: 23.125rem;
 	border: 1px solid #ECF0F1;
-	padding: 18px 0 10px;
+	padding: 1.125rem 0 0.625rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 	
 }
 
@@ -683,7 +682,7 @@ iframe{
 
 .titleposition{
 	position: relative;
-	left: -18px;
+	left: -1.125rem;
 }
 
 .flèches {
@@ -693,14 +692,14 @@ iframe{
 
 .arrowleft{
 	position: absolute;
-	top: -335px;
+	top: -20.938rem;
 	color: var(--title-color);
 	margin:7.1875rem 0 18.75rem;
 }
 
 .arrowright{
 	position: absolute;
-	top: -335px;
+	top: -20.938rem;
 	color: var(--title-color);
 	margin:7.1875rem 18.75rem 0 ;
 }
@@ -708,8 +707,8 @@ iframe{
 .expandarrow{
 	position: relative;
 	color:var(--title-color);
-	top: -400px;
-	left: 295px;
+	top: -25rem;
+	left: 18.438rem;
 }
 
 .expandarrow:hover{
@@ -719,7 +718,7 @@ iframe{
 .carreblanc{
 	border: 1px solid white;
 	background-color: white;	
-	border-radius: 2.25px;
+	border-radius: 0.141rem;
 }
 
 
@@ -732,8 +731,8 @@ iframe{
 }
 .player{
 	background-color: #A1B1BC;
-	width: 330px;
-	height: 90px;
+	width: 20.625rem;
+	height: 5.625rem;
 	
 	display: flex;
 	justify-content: space-around;
@@ -746,13 +745,13 @@ iframe{
 	}
 	
 	.play,.pause,.volume_ico{
-	height: 18px;
+	height: 1.125rem;
 	
 	}
 	
 	.bar{
 	width:20%;
-	height: 10px;
+	height: 0.625rem;
 	background-color: #FFF
 	
 	}
@@ -769,7 +768,7 @@ iframe{
 	
 	.volume_bar_conteneur{
 	width:100%;
-	height: 10px;
+	height: 0.625rem;
 	background-color: #FFF
 	}
 	
@@ -833,14 +832,14 @@ iframe{
 
 .arrowleft2{
 	position: absolute;
-	top: -260px;
+	top: -16.25rem;
 	color: var(--title-color);
 	margin:7.1875rem 0 18.75rem;
 }
 
 .arrowright2{
 	position: absolute;
-	top: -260px;
+	top: -16.25rem;
 	color: var(--title-color);
 	margin:7.1875rem 18.75rem 0 ;
 }
@@ -848,8 +847,8 @@ iframe{
 .expandarrow2{
 	position: relative;
 	color:var(--title-color);
-	top: -255px;
-	left: 295px;
+	top: -15.938rem;
+	left: 18.438rem;
 }
 
 .expandarrow2:hover{
@@ -876,7 +875,7 @@ iframe{
 #pagination ul li a .fa-home{
 	border: 1px solid var(--black-footer);
 	background-color: var(--black-footer);
-	padding: 18px;
+	padding: 1.125rem;
 	border-radius: 3px;
 	color: white;
 	margin: 0.625rem;
@@ -885,7 +884,7 @@ iframe{
 #pagination ul li a .fa-angle-left{
 	border: 1px solid var(--black-footer);
 	background-color: var(--black-footer);
-	padding: 18px 23px ;
+	padding: 1.125rem 1.438rem ;
 	border-radius: 3px;
 	color: white;
 	margin: 0.625rem;
@@ -894,7 +893,7 @@ iframe{
 #pagination ul li a .fa-angle-right{
 	border: 1px solid var(--black-footer);
 	background-color: var(--black-footer);
-	padding: 18px 23px ;
+	padding: 1.125rem 1.438rem ;
 	border-radius: 3px;
 	color: white;
 	margin: 0.625rem;
