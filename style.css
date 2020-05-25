@@ -155,10 +155,14 @@ a{
 	margin: 0 1.469rem;
 }
 
-.menu li:not(:last-child) :hover{
+.menu li:not(:nth-child(10)) :hover{
 	color: var(--green-color);
 	border-top: 2px solid var(--green-color);
 	padding-top: 2.375rem;
+}
+
+.bars-display{
+	display: none;
 }
 
 
@@ -1152,7 +1156,73 @@ footer #second-footer li a:hover{
 
 @media only screen and (min-width: 768px)and (max-width: 991.98px)
 {
+	.container{
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
 
+	/* Header ---  */
+
+	.lang{
+		margin-right: 15rem;
+	}
+
+	#header2 .container{
+		flex-wrap: wrap;
+	}
+
+	.menu{
+		margin-bottom: 1rem;
+	}
+
+	.menu li:not(:first-child){
+		display: none;
+	}
+
+	.menu ul {
+		flex-direction: column;
+		margin-right: 30px;
+		position: relative;
+		top: 0;
+	}
+
+	.bars-display{
+		display: block;
+		position: relative;
+		left: 25px;
+	}
+
+	.bars-display svg{
+		fill: var(--title-color);
+		height: 2.5rem;
+		width: 2.5rem;
+	}
+
+	.menu.responsive {
+		position: relative;
+	}
+	
+	.menu.responsive a.bars-display{
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	.menu.responsive li {
+	  float: none;
+	  display: block;
+	  text-align: right;
+	  font-size: 1.5rem;
+	  line-height: 30px;
+	}
+
+
+	/* Main ---  */
+
+	#colonnes{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
 
 
 
