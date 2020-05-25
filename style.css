@@ -1095,10 +1095,20 @@ footer #second-footer li a:hover{
 {
 
 
+	.container{
+		max-width: 100%;
+		padding: 0 1rem;
+	}
 
+	/* footer */
 
+	.grey-line{
+		width: 11.875rem;
+	}
 
-
+	.container .sfooter4{
+		height: 76%;
+	}
 
 
 
