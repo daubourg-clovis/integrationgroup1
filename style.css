@@ -636,29 +636,29 @@ iframe{
 	align-items: center;
 }
 
-#onlytext-hoverstyle:hover{
+#onlytext:hover{
 	background-color: var(--title-color);
 }
 
-#onlytext-hoverstyle:hover h2{
+#onlytext:hover h2{
 	color: white;
 }
 
-#onlytext-hoverstyle:hover p{
+#onlytext:hover p{
 	color: white;
 }
 
-#onlytext-hoverstyle:hover h2 span{
+#onlytext:hover h2 span{
 	display: none;
 }
-#onlytext-hoverstyle:hover h2::after{
+#onlytext:hover h2::after{
 	content: '- Hover Style';
 }
-#onlytext-hoverstyle:hover p span{
+#onlytext:hover p span{
 	color: var(--green-color);
 }
 
-#onlytext-hoverstyle:hover a{
+#onlytext:hover a{
 	color: white;
 }
 
@@ -797,29 +797,29 @@ iframe{
 	align-items: center;
 }
 
-#onlytext2-hoverstyle:hover{
+#onlytext2:hover{
 	background-color: var(--title-color);
 }
 
-#onlytext2-hoverstyle:hover h2{
+#onlytext2:hover h2{
 	color: white;
 }
 
-#onlytext2-hoverstyle:hover p{
+#onlytext2:hover p{
 	color: white;
 }
 
-#onlytext2-hoverstyle:hover h2 span{
+#onlytext2:hover h2 span{
 	display: none;
 }
-#onlytext2-hoverstyle:hover h2::after{
+#onlytext2:hover h2::after{
 	content: '- Hover Style';
 }
-#onlytext2-hoverstyle:hover p span{
+#onlytext2:hover p span{
 	color: var(--green-color);
 }
 
-#onlytext2-hoverstyle:hover a{
+#onlytext2:hover a{
 	color: white;
 }
 
