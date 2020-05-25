@@ -1153,6 +1153,16 @@ footer #second-footer li a:hover{
 		padding: 0 0.5rem;
 	}
 
+	#colonnes{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	#column-1 section{
+		margin-bottom: 62px;
+	}
+
+	
 /* Footer --- */
 
 #first-footer .container{
