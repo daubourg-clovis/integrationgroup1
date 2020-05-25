@@ -1160,7 +1160,7 @@ footer #second-footer li a:hover{
 }
 
 footer .container{
-	 flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 #first-footer section{
@@ -1185,10 +1185,6 @@ section.sfooter4 div.grey-line{
 	text-align: center;
 }
 
-
-
-
-
 .grey-line{
 	width: 11.875rem;
 }
@@ -1212,10 +1208,40 @@ section.sfooter4 div.grey-line{
 @media only screen and (min-width: 480px) and (max-width: 767.98px)
 {
 
+	.container{
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
 
 
 
+/* Footer --- */
 
+#first-footer .container{
+	height: auto;
+}
+
+#first-footer section{
+	width : 40%;
+}
+
+
+.grey-line{
+	width: 8.875rem;
+}
+
+#first-footer .container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#second-footer .container{
+	align-items: center;
+}
+
+#second-footer .container p{
+	text-align: center;
+}
 
 
 
