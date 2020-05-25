@@ -1124,6 +1124,8 @@ footer #second-footer li a:hover{
 		justify-content: space-evenly;
 	}
 
+	/*Footer --- */
+
 	.grey-line{
 		width: 11.875rem;
 	}
@@ -1153,8 +1155,52 @@ footer #second-footer li a:hover{
 @media only screen and (min-width: 768px)and (max-width: 991.98px)
 {
 
+	.container{
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
+
+/* Footer --- */
+
+#first-footer .container{
+	height: auto;
+}
+
+footer .container{
+	 flex-wrap: wrap;
+}
+
+#first-footer section{
+	width : 30%;
+}
+
+div#first-footer div.container section.sfooter4{
+	width:auto ;
+	text-align: center;
+}
+
+section.sfooter4 div.underline-green{
+	width: auto ;
+	text-align: center;
+}
+
+section.sfooter4 div.grey-line{
+	width: auto;
+	text
+}
+
+#second-footer .container p{
+	width: 39%;
+	text-align: center;
+}
 
 
+
+
+
+.grey-line{
+	width: 11.875rem;
+}
 
 
 
