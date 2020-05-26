@@ -1355,7 +1355,15 @@ footer #second-footer li a:hover{
 	}
 
 	#path{
-		display: none;		
+		display: none;
+	}	
+
+	
+	/* Main ---*/
+
+	#colonnes{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
 	}
 
 
@@ -1389,9 +1397,9 @@ footer #second-footer li a:hover{
 
 
 
-
-
-
+	.grey-line{
+	width: 11.875rem;
+	}
 
 
 }
