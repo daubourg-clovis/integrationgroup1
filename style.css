@@ -1293,21 +1293,18 @@ footer #second-footer li a:hover{
 
 	#first-footer .container{
 		height: auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 
 	#first-footer section{
 		width : 40%;
 	}
 
-
 	.grey-line{
 		width: 8.875rem;
 	}
 
-	#first-footer .container{
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
 
 	#second-footer .container{
 		align-items: center;
@@ -1318,15 +1315,7 @@ footer #second-footer li a:hover{
 	}
 
 
-
-
-
-
-	.grey-line{
-	width: 11.875rem;
-	}
-
-
+	
 }
 
 
@@ -1336,7 +1325,44 @@ footer #second-footer li a:hover{
 
 @media only screen and (max-width : 479.98px) {
 
+	.container{
+		max-width: 100%;
+		padding: 0 0.5rem;
+	}
 
+	/* Main ---*/
+	#colonnes{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+
+	/* Footer --- */
+
+	#first-footer .container{
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	#first-footer section{
+		width : 40%;
+		margin-top: 1.25rem;
+	}
+
+	.grey-line{
+		width: 8.875rem;
+	}
+
+
+	#second-footer .container{
+		flex-direction: column;
+	}
+
+	#second-footer .container p{
+		text-align: center;
+	}
 
 
 
