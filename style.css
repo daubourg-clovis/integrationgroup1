@@ -764,8 +764,11 @@ iframe{
 	}
 	
 	.play,.pause,.volume_ico{
-	height: 1.125rem;
+	height: 1.125rem;	
+	}
 	
+	.play,.pause,.progress_bar,.volume_bar{
+		cursor: pointer;
 	}
 	
 	.bar{
