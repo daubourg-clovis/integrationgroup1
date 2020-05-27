@@ -982,11 +982,15 @@ iframe{
 	height: 29.188rem;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-tart;
 }
 
 #first-footer{
 	background-color: var(--black-footer);
+}
+
+#first-footer .container section{
+	margin-top: 5%;
 }
 
 #second-footer{
