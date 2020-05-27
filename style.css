@@ -58,6 +58,7 @@ a{
 
 .lang{
 	margin-right: 36.75rem;
+	cursor: pointer;
 }
 
 .lang p{
@@ -81,6 +82,10 @@ a{
 	border-radius: 0.188rem;
 	justify-content: center;
 	align-items: center;
+}
+
+.cart:hover{
+	color: var(--green-color);
 }
 
 .socials{
@@ -1067,6 +1072,10 @@ iframe{
 	color: var(--grey-p);
 	font-size: 1.125rem;
 	margin: 0 0.25rem;
+}
+
+.socials li a:hover{
+	color:var(--green-color);
 }
 
 footer #second-footer li a:hover{
