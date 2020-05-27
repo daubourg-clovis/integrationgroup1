@@ -984,7 +984,7 @@ iframe{
 }
 
 #first-footer .container{
-	height: 29.188rem;
+	height: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-tart;
@@ -995,7 +995,7 @@ iframe{
 }
 
 #first-footer .container section{
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 #second-footer{
@@ -1085,9 +1085,7 @@ footer #second-footer li a:hover{
 	line-height: 1.5rem;
 }
 
-#first-footer .container p{
-	margin-top:0.625rem;
-}
+
 .container .sfooter4{
 	height: 72%;
 }
