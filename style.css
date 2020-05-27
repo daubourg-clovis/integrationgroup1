@@ -767,10 +767,10 @@ iframe{
 	height: 1.125rem;	
 	}
 	
-	.play,.pause,.progress_bar,.volume_bar{
+	.play,.pause,.progress_bar,.volume_bar,.volume_bar_conteneur{
 		cursor: pointer;
 	}
-	
+
 	.bar{
 	width:20%;
 	height: 0.625rem;
