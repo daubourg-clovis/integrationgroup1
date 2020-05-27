@@ -1205,7 +1205,8 @@ footer #second-footer li a:hover{
 	.bars-display{
 		display: block;
 		position: relative;
-		left: 1.563rem;
+		left: 4.063rem;
+		top: -0.938rem;
 	}
 
 	.bars-display svg{
@@ -1334,7 +1335,8 @@ footer #second-footer li a:hover{
 	.bars-display{
 		display: block;
 		position: relative;
-		left: 1.563rem;
+		left: 1.875rem;
+		top: -0.938rem;
 	}
 
 	.bars-display svg{
@@ -1482,7 +1484,8 @@ footer #second-footer li a:hover{
 	.bars-display{
 		display: block;
 		position: relative;
-		left: 1.563rem;
+		left: 1.875rem;
+		top: -0.938rem;
 	}
 
 	.bars-display svg{
