@@ -711,16 +711,16 @@ iframe{
 
 .arrowleft{
 	position: absolute;
-	top: -20.938rem;
+	top: -14.375rem;
+	left: 0px;
 	color: var(--title-color);
-	margin:7.1875rem 0 18.75rem;
 }
 
 .arrowright{
 	position: absolute;
-	top: -20.938rem;
+	top: -14.375rem;
+	right: -19.938rem;
 	color: var(--title-color);
-	margin:7.1875rem 18.75rem 0 ;
 }
 
 .expandarrow{
@@ -735,7 +735,7 @@ iframe{
 }
 
 .carreblanc{
-	border: 1px solid white;
+	padding: 7.5px;
 	background-color: white;	
 	border-radius: 0.141rem;
 }
@@ -851,16 +851,16 @@ iframe{
 
 .arrowleft2{
 	position: absolute;
-	top: -16.25rem;
+	top: -10rem;
+	left: 0px;
 	color: var(--title-color);
-	margin:7.1875rem 0 18.75rem;
 }
 
 .arrowright2{
 	position: absolute;
-	top: -16.25rem;
+	top: -10rem;
+	right: -19.938rem;
 	color: var(--title-color);
-	margin:7.1875rem 18.75rem 0 ;
 }
 
 .expandarrow2{
